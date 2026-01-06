@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================
+   Custom Base Styles
+   ====================== */
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply font-sans text-slate-900 dark:text-slate-100;
+        @apply bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100;
+        @apply dark:from-slate-900 dark:via-slate-800 dark:to-slate-900;
+        min-height: 100vh;
+    }
+
+    /* Focus styles */
+    *:focus-visible {
+        @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+        @apply dark:ring-offset-slate-900;
+    }
+}
+
+/* ======================
+   Custom Components
+   ====================== */
+@layer components {
+
+    /* Glass Card */
+    .glass-card {
+        @apply bg-white/70 dark:bg-slate-800/70;
+        @apply backdrop-blur-xl;
+        @apply border border-white/30 dark:border-slate-700/30;
+        @apply shadow-glass;
+        @apply rounded-2xl;
+    }
+
+    /* Premium Button */
+    .btn-primary {
+        @apply px-6 py-3 rounded-xl font-semibold;
+        @apply bg-gradient-to-r from-primary-500 to-primary-600;
+        @apply hover:from-primary-600 hover:to-primary-700;
+        @apply text-white shadow-lg shadow-primary-500/25;
+        @apply transform transition-all duration-200;
+        @apply hover:scale-[1.02] hover:shadow-xl hover:shadow-primary-500/30;
+        @apply active:scale-[0.98];
+        @apply disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100;
+    }
+
+    .btn-secondary {
+        @apply px-6 py-3 rounded-xl font-semibold;
+        @apply bg-white dark:bg-slate-800;
+        @apply border border-slate-200 dark:border-slate-700;
+        @apply text-slate-700 dark:text-slate-300;
+        @apply hover:bg-slate-50 dark:hover:bg-slate-700;
+        @apply transition-all duration-200;
+        @apply disabled:opacity-50 disabled:cursor-not-allowed;
+    }
+
+    .btn-ghost {
+        @apply px-6 py-3 rounded-xl font-semibold;
+        @apply text-primary-600 dark:text-primary-400;
+        @apply hover:bg-primary-50 dark:hover:bg-primary-900/20;
+        @apply transition-all duration-200;
+    }
+
+    /* Premium Input */
+    .input-primary {
+        @apply w-full px-4 py-3 rounded-xl;
+        @apply bg-white dark:bg-slate-800;
+        @apply border-2 border-slate-200 dark:border-slate-700;
+        @apply text-slate-900 dark:text-slate-100;
+        @apply placeholder:text-slate-400;
+        @apply focus:border-primary-500 focus:ring-0;
+        @apply transition-colors duration-200;
+    }
+
+    /* Skeleton Loading */
+    .skeleton {
+        @apply animate-pulse bg-slate-200 dark:bg-slate-700 rounded;
+    }
+
+    /* Progress Bar */
+    .progress-bar {
+        @apply h-2 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden;
+    }
+
+    .progress-bar-fill {
+        @apply h-full bg-gradient-to-r from-primary-500 to-primary-600;
+        @apply transition-all duration-500 ease-out;
+    }
+
+    /* Step indicator */
+    .step-indicator {
+        @apply w-10 h-10 rounded-full flex items-center justify-center;
+        @apply font-semibold text-sm;
+        @apply transition-all duration-300;
+    }
+
+    .step-indicator.completed {
+        @apply bg-success-500 text-white;
+    }
+
+    .step-indicator.current {
+        @apply bg-primary-500 text-white ring-4 ring-primary-100 dark:ring-primary-900/50;
+    }
+
+    .step-indicator.pending {
+        @apply bg-slate-200 dark:bg-slate-700 text-slate-500;
+    }
+}
+
+/* ======================
+   Custom Utilities
+   ====================== */
+@layer utilities {
+
+    /* Gradient text */
+    .text-gradient {
+        @apply bg-clip-text text-transparent;
+        @apply bg-gradient-to-r from-primary-500 to-primary-700;
+    }
+
+    /* Glow effect */
+    .glow-primary {
+        box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
+    }
+
+    .glow-success {
+        box-shadow: 0 0 30px rgba(16, 185, 129, 0.3);
+    }
+
+    /* Animation delays */
+    .animation-delay-100 {
+        animation-delay: 100ms;
+    }
+
+    .animation-delay-200 {
+        animation-delay: 200ms;
+    }
+
+    .animation-delay-300 {
+        animation-delay: 300ms;
+    }
+
+    .animation-delay-400 {
+        animation-delay: 400ms;
+    }
+
+    /* Hide scrollbar */
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+}

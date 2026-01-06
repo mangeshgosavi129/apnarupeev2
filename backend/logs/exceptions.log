@@ -1,0 +1,14 @@
+2026-01-01 20:32:03 [error]: Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at app.listen (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/express/lib/application.js:635:24)
+    at startServer (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/index.ts:155:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-02 06:39:35 [error]: Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at app.listen (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/express/lib/application.js:635:24)
+    at startServer (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/index.ts:155:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)

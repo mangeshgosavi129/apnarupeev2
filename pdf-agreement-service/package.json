@@ -1,0 +1,22 @@
+{
+    "name": "pdf-agreement-service",
+    "version": "1.0.0",
+    "description": "Entity-specific DSA Agreement PDF generation service for DSA Onboarding Platform v3.0",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "node tests/test-all-entities.js",
+        "start": "node src/index.js"
+    },
+    "keywords": [
+        "pdf",
+        "agreement",
+        "dsa",
+        "onboarding"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "joi": "^17.11.0",
+        "pdf-lib": "^1.17.1"
+    }
+}

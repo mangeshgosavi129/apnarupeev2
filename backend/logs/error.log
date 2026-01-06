@@ -1,0 +1,763 @@
+2026-01-01 17:20:23 [error]: [Sandbox] Authentication failed:
+2026-01-01 17:20:23 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:151:31)
+2026-01-01 17:20:24 [error]: [Sandbox] Authentication failed:
+2026-01-01 17:20:24 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:151:31)
+2026-01-01 17:43:10 [error]: [Sandbox] Authentication failed:
+2026-01-01 17:43:10 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:42:31)
+2026-01-01 17:43:22 [error]: [Sandbox] Authentication failed:
+2026-01-01 17:43:22 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:151:31)
+2026-01-01 17:43:23 [error]: [Sandbox] Authentication failed:
+2026-01-01 17:43:23 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:151:31)
+2026-01-01 17:46:53 [error]: [Sandbox] Authentication failed:
+2026-01-01 17:46:53 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:42:31)
+2026-01-01 17:53:17 [error]: [Sandbox] Authentication failed:
+2026-01-01 17:53:17 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:42:31)
+2026-01-01 18:01:28 [error]: [Sandbox] Authentication failed:
+2026-01-01 18:01:28 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:42:31)
+2026-01-01 18:01:40 [error]: [Sandbox] Authentication failed:
+2026-01-01 18:01:40 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+    at async SandboxClient.ensureToken (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:84:13)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:112:9)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:42:31)
+2026-01-01 20:51:13 [error]: [PDF] Generation failed:
+2026-01-01 20:51:13 [error]: Error: PDF generation failed: ENOENT: no such file or directory, open '/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/templates/DSA_Agreement_blank.pdf'
+    at generateAgreementPDF (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/pdf-agreement/pdfService.ts:233:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/agreement.routes.ts:159:27)
+2026-01-01 20:51:16 [error]: [PDF] Generation failed:
+2026-01-01 20:51:16 [error]: Error: PDF generation failed: ENOENT: no such file or directory, open '/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/templates/DSA_Agreement_blank.pdf'
+    at generateAgreementPDF (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/pdf-agreement/pdfService.ts:233:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/agreement.routes.ts:159:27)
+2026-01-01 20:53:34 [error]: [Agreement] E-stamp failed:
+2026-01-01 20:53:54 [error]: [Agreement] E-stamp failed:
+2026-01-01 20:56:35 [error]: [Agreement] E-stamp failed:
+2026-01-01 20:59:09 [error]: [Agreement] E-stamp failed:
+2026-01-01 20:59:38 [error]: [Agreement] E-stamp failed:
+2026-01-01 21:02:01 [error]: [Agreement] E-stamp failed:
+2026-01-01 21:06:21 [error]: [Agreement] E-stamp failed:
+2026-01-01 21:12:23 [error]: [Agreement] E-stamp failed:
+2026-01-01 21:38:17 [error]: [Agreement] E-sign failed:
+2026-01-01 21:41:36 [error]: [Agreement] E-sign failed:
+2026-01-01 21:52:50 [error]: [Agreement] E-sign failed:
+2026-01-01 22:04:55 [error]: [Agreement] E-sign failed:
+2026-01-01 22:14:47 [error]: [Sandbox] Authentication failed:
+2026-01-01 22:14:47 [error]: Error: read ETIMEDOUT
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:508:28)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+2026-01-01 22:14:47 [error]: Error: read ETIMEDOUT
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:508:28)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+2026-01-01 22:14:47 [error]: Error: read ETIMEDOUT
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:508:28)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+2026-01-01 22:14:47 [error]: Error: read ETIMEDOUT
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:508:28)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.authenticate (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:33:30)
+2026-01-01 22:47:58 [error]: [DigiLocker] Failed to parse PAN XML:
+2026-01-01 22:47:58 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:00:56 [error]: [DigiLocker] Failed to parse PAN XML:
+2026-01-01 23:00:56 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:02:02 [error]: AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:854:15)
+    at RedirectableRequest.emit (node:events:508:28)
+    at Timeout._onTimeout (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-01 23:14:44 [error]: [DigiLocker] Failed to parse PAN XML:
+2026-01-01 23:14:44 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:16:05 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:16:09 [error]: [DigiLocker] Failed to parse PAN XML:
+2026-01-01 23:16:09 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:16:12 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:16:15 [error]: [DigiLocker] Failed to parse PAN XML:
+2026-01-01 23:16:15 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:17:48 [error]: [DigiLocker] Failed to parse PAN XML:
+2026-01-01 23:17:48 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:28:02 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:28:03 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:28:17 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:28:18 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:28:20 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:28:20 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:29:03 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:29:03 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:33:19 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:33:19 [error]: [DigiLocker] Aadhaar error stack:
+2026-01-01 23:33:19 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:33:19 [error]: [DigiLocker] PAN error stack:
+2026-01-01 23:33:19 [error]: [DigiLocker] aadhaarData is null - cannot proceed
+2026-01-01 23:33:31 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:33:31 [error]: [DigiLocker] Aadhaar error stack:
+2026-01-01 23:33:31 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:33:31 [error]: [DigiLocker] PAN error stack:
+2026-01-01 23:33:31 [error]: [DigiLocker] aadhaarData is null - cannot proceed
+2026-01-01 23:40:55 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767291054936,"message":"Insufficient credits","transaction_id":"c2c5e2e7-d4a7-41ba-be7d-cd737dff221d"}
+2026-01-01 23:40:55 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-01 23:40:55 [error]: [DigiLocker] Aadhaar error stack:
+2026-01-01 23:40:55 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767291055207,"message":"Insufficient credits","transaction_id":"0d4074b7-f227-41c4-abc7-9d7de2768a6f"}
+2026-01-01 23:40:55 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-01 23:40:55 [error]: [DigiLocker] PAN error stack:
+2026-01-01 23:40:55 [error]: [DigiLocker] aadhaarData is null - cannot proceed
+2026-01-01 23:56:32 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767291992661,"message":"Insufficient credits","transaction_id":"9e02cd1b-ab56-4830-adad-169979865125"}
+2026-01-01 23:56:32 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:87:31)
+2026-01-01 23:56:35 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767291995265,"message":"Insufficient credits","transaction_id":"aef5c129-c704-415b-83d6-c4f0830b2f7e"}
+2026-01-01 23:56:35 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:87:31)
+2026-01-02 00:48:59 [error]: [Sandbox] API Error: 504 - {"code":504,"message":"Endpoint request timed out","timestamp":1767295110467,"transaction_id":"07d8592c-6f38-4919-9fef-d82674783ecc"}
+2026-01-02 00:48:59 [error]: AxiosError: Request failed with status code 504
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:44:31)
+2026-01-02 02:51:13 [error]: [DigiLocker] Name missing in Aadhaar XML. Data keys:
+2026-01-02 02:51:13 [error]: [DigiLocker] Data content:
+2026-01-02 02:51:13 [error]: [DigiLocker] Failed to parse Aadhaar XML:
+2026-01-02 02:51:13 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-02 02:51:13 [error]: [DigiLocker] Aadhaar error stack:
+2026-01-02 02:51:17 [error]: [DigiLocker] aadhaarData is null - cannot proceed
+2026-01-02 05:19:54 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767311394147,"message":"Insufficient credits","transaction_id":"358fb501-f2c9-4f1d-90d9-9530f6bb536b"}
+2026-01-02 05:19:54 [error]: [DigiLocker] Failed to fetch Aadhaar:
+2026-01-02 05:19:54 [error]: [DigiLocker] Aadhaar error stack:
+2026-01-02 05:19:54 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767311394473,"message":"Insufficient credits","transaction_id":"434315f8-34a9-4191-bb33-2f1f177b23df"}
+2026-01-02 05:19:54 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-02 05:19:54 [error]: [DigiLocker] PAN error stack:
+2026-01-02 05:19:54 [error]: [DigiLocker] aadhaarData is null - cannot proceed
+2026-01-02 06:45:32 [error]: [Sandbox] API Error: 500 - {"code":500,"timestamp":1767316511189,"message":"Failed to verify Aadhaar","transaction_id":"b17479e4-668a-4af8-8f38-7407bab6de0e"}
+2026-01-02 06:45:32 [error]: AxiosError: Request failed with status code 500
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:87:31)
+2026-01-02 08:00:38 [error]: [Sandbox] API Error: 500 - {"code":500,"timestamp":1767321030285,"message":"Failed to verify Aadhaar","transaction_id":"bedd7903-39f0-4aa2-b609-77c860c56e2c"}
+2026-01-02 08:00:38 [error]: AxiosError: Request failed with status code 500
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:87:31)
+2026-01-02 08:09:20 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767321560343,"message":"Insufficient credits","transaction_id":"c356a656-90a1-4b71-a42e-1b54af9feb0a"}
+2026-01-02 08:09:20 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-02 08:09:31 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767321571834,"message":"Insufficient credits","transaction_id":"f345504e-f5a6-4459-bc79-09d7fc217a6b"}
+2026-01-02 08:09:31 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-02 08:10:06 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767321606304,"message":"Insufficient credits","transaction_id":"f55fb4ce-5e14-45b8-8e4e-f59699ec7825"}
+2026-01-02 08:10:06 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-02 08:10:07 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767321607857,"message":"Insufficient credits","transaction_id":"a71048a2-1024-48f4-95c5-38b2704f0e4a"}
+2026-01-02 08:10:07 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-02 08:13:33 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767321813561,"message":"Insufficient credits","transaction_id":"652d60a7-0e97-4bf4-abad-7ce18edd3c15"}
+2026-01-02 08:13:33 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-02 08:13:35 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767321815852,"message":"Insufficient credits","transaction_id":"0603f2b9-709b-4939-bcf3-9d144180e548"}
+2026-01-02 08:13:35 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-02 10:39:59 [error]: TypeError: Cannot read properties of undefined (reading 'aadhaar')
+    at <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:455:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-02 10:40:05 [error]: TypeError: Cannot read properties of undefined (reading 'aadhaar')
+    at <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:455:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-02 14:43:02 [error]: [Sandbox] No response received: Error
+2026-01-02 14:43:02 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:455:26)
+2026-01-02 14:49:52 [error]: [Sandbox] API Error: 422 - {"code":422,"timestamp":1767345592449,"message":"date_of_birth format invalid","transaction_id":"8bdd8e47-33d8-4a44-b6c0-23f0fcaf9cb1"}
+2026-01-02 14:49:52 [error]: AxiosError: Request failed with status code 422
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:637:26)
+2026-01-02 14:49:58 [error]: [Sandbox] API Error: 422 - {"code":422,"timestamp":1767345598764,"message":"date_of_birth format invalid","transaction_id":"25cef95c-8c4f-401a-9f77-2481e7021d8a"}
+2026-01-02 14:49:58 [error]: AxiosError: Request failed with status code 422
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:637:26)
+2026-01-02 14:50:55 [error]: [Sandbox] API Error: 422 - {"code":422,"timestamp":1767345655492,"message":"date_of_birth format invalid","transaction_id":"ab29d7c8-be8a-499c-85c9-3e236ecc22c4"}
+2026-01-02 14:50:55 [error]: AxiosError: Request failed with status code 422
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:637:26)
+2026-01-02 15:31:34 [error]: [Sandbox] No response received: Error
+2026-01-02 15:31:34 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:641:26)
+2026-01-02 16:52:35 [error]: [Sandbox] API Error: 504 - {"code":504,"message":"Endpoint request timed out","timestamp":1767352926705,"transaction_id":"70e5b5ea-5b56-416e-8663-37a2e4a8905e"}
+2026-01-02 16:52:35 [error]: AxiosError: Request failed with status code 504
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/company.routes.ts:57:31)
+2026-01-03 11:44:25 [error]: PoolClearedOnNetworkError: Connection to localhost:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:487:28)
+    at <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:473:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-01-03 11:44:25 [error]: PoolClearedOnNetworkError: Connection to localhost:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:487:28)
+    at <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:473:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-01-03 11:44:25 [error]: PoolClearedOnNetworkError: Connection to localhost:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:487:28)
+    at <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:473:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-01-03 11:44:25 [error]: PoolClearedOnNetworkError: Connection to localhost:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:487:28)
+    at <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/mongodb/src/cmap/connection_pool.ts:473:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-01-05 12:52:08 [error]: [Sandbox] API Error: 504 - {"code":504,"message":"Endpoint request timed out","timestamp":1767597699015,"transaction_id":"b689ae76-24b9-405b-8c9a-3ea745843535"}
+2026-01-05 12:52:08 [error]: AxiosError: Request failed with status code 504
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:455:26)
+2026-01-05 13:35:04 [error]: [DigiLocker] Failed to fetch document:
+2026-01-05 13:35:04 [error]: [DigiLocker] Failed to fetch PAN:
+2026-01-05 13:35:04 [error]: [DigiLocker] PAN error stack:
+2026-01-05 13:36:18 [error]: [Sandbox] No response received: Error
+2026-01-05 13:36:18 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:128:35)
+2026-01-05 13:36:36 [error]: [Sandbox] No response received: Error
+2026-01-05 13:36:36 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:128:35)
+2026-01-05 13:37:30 [error]: [Sandbox] No response received: timeout of 30000ms exceeded
+2026-01-05 13:37:30 [error]: AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:854:15)
+    at RedirectableRequest.emit (node:events:508:28)
+    at Timeout._onTimeout (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
+2026-01-05 13:54:03 [error]: [Sandbox] No response received: Error
+2026-01-05 13:54:03 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:455:26)
+2026-01-05 21:23:34 [error]: [Sandbox] API Error: 500 - {"code":500,"timestamp":1767628393099,"message":"Failed to verify Aadhaar","transaction_id":"1f0f5822-6b0f-4c69-9952-0aacd35d630f"}
+2026-01-05 21:23:34 [error]: AxiosError: Request failed with status code 500
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:47:22 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767629842099,"message":"Insufficient credits","transaction_id":"4cbaca50-ffcc-405c-a77d-554bc52a8c61"}
+2026-01-05 21:47:22 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:47:33 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767629853868,"message":"Insufficient credits","transaction_id":"c4abd2a6-b305-48b2-9e6e-661091cd04f5"}
+2026-01-05 21:47:33 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:47:41 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767629861548,"message":"Insufficient credits","transaction_id":"464d5f05-2c1a-4d18-af11-7544de808dc4"}
+2026-01-05 21:47:41 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:48:20 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767629900629,"message":"Insufficient credits","transaction_id":"3fe512ba-555d-4b3c-b0b0-14d71316f7bd"}
+2026-01-05 21:48:20 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:48:38 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767629918554,"message":"Insufficient credits","transaction_id":"135d989a-c395-4a7a-aa49-d1e8a10fb95d"}
+2026-01-05 21:48:38 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:49:08 [error]: [Sandbox] No response received: Error
+2026-01-05 21:49:08 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:54:37 [error]: [Sandbox] No response received: Error
+2026-01-05 21:54:37 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 21:57:03 [error]: [Sandbox] No response received: Error
+2026-01-05 21:57:03 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:641:26)
+2026-01-05 22:10:06 [error]: [Sandbox] No response received: Error
+2026-01-05 22:10:06 [error]: AggregateError: Error
+    at AxiosError.AxiosError.from (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:817:25)
+    at RedirectableRequest.emit (node:events:520:35)
+    at eventHandlers.<computed> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/follow-redirects/index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/kyc.routes.ts:44:31)
+2026-01-05 22:18:29 [error]: [ESign] Error: Error
+2026-01-05 22:18:29 [error]: [Agreement] E-sign failed:
+2026-01-05 22:18:43 [error]: [EStamp] Error: timeout of 60000ms exceeded
+2026-01-05 22:18:43 [error]: [Agreement] E-stamp failed:
+2026-01-05 22:25:39 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767632139422,"message":"Insufficient credits","transaction_id":"4c57434e-7d43-4567-b413-a79a16d55a7d"}
+2026-01-05 22:25:39 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 22:25:46 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767632146781,"message":"Insufficient credits","transaction_id":"77cd97cc-16f7-41c5-a50b-42f9f34d56e4"}
+2026-01-05 22:25:46 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 22:29:32 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767632372303,"message":"Insufficient credits","transaction_id":"2e00b8e4-afce-44f9-aad8-48075402d94d"}
+2026-01-05 22:29:32 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 22:29:33 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767632373868,"message":"Insufficient credits","transaction_id":"b050a976-da55-4b9b-b163-9a1a8827f493"}
+2026-01-05 22:29:33 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 22:29:39 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767632379378,"message":"Insufficient credits","transaction_id":"db7f0828-0eee-41e2-bb09-d1169c7fa8eb"}
+2026-01-05 22:29:39 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-05 22:30:08 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767632407922,"message":"Insufficient credits","transaction_id":"eb6ac064-ea29-4da9-9ee0-dc4e633379cf"}
+2026-01-05 22:30:08 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/partners.routes.ts:521:26)
+2026-01-06 15:35:53 [error]: [EStamp] Error: Error
+2026-01-06 15:35:53 [error]: [Agreement] E-stamp failed:
+2026-01-06 16:27:26 [error]: [Sandbox] API Error: 403 - {"code":403,"timestamp":1767697046177,"message":"Insufficient credits","transaction_id":"2d48a1e1-187d-4d1a-8a3d-32d6aaa13e12"}
+2026-01-06 16:27:26 [error]: AxiosError: Request failed with status code 403
+    at settle (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async SandboxClient.request (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/services/sandbox/index.ts:128:30)
+    at async <anonymous> (/Users/swaraj_madhavrao_patil/Apna_Rupee_Final copy/dsa-onboarding-v10/backend/src/routes/bank.routes.ts:37:31)
